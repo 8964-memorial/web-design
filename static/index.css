@@ -49,11 +49,21 @@ input {
 .form {
   background-image: url('/static/form.png');
   width: 358px;
-  height: 364px;
+  height: 404px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
+}
+
+.button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  height: 30px;
+  width: 100px;
+  align-self: flex-end;
+  margin-top: 10px;
 }
 
 .box {
@@ -74,7 +84,7 @@ input {
 
 .box,
 .box img {
-  width: 240px;
+  width: 190px;
 }
 
 .box .box-content {
