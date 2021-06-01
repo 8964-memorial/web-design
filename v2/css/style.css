@@ -162,7 +162,7 @@ footer p{
 
 .say-box{
 	width: 222px;
-	height: 226px;
+	height: 276px;
 	border-radius: 10px;
 	background-color: #000;
 	background-image: url(../images/say-bg.png),url(../images/say-box-stxt.png);
@@ -197,6 +197,21 @@ footer p{
 	 height: 3em;
 	 width: 100%;
 	 border-radius: 10px;
+}
+
+.say-box button{
+	border:1px solid rgba(255,255,255,0.2);
+	border-radius: 10px;
+	background-color: #000;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	box-sizing: border-box;
+	height: 35px;
+	width: 60%;
+	font-size: 1em;
+	margin-top: 5px;
 }
 @media screen and (max-width: 1240px){
 	header{
@@ -256,7 +271,7 @@ footer p{
 }
 .say-box{
 	width: 222px;
-	height: 226px;
+	height: 266px;
 	background-image: url(../images/say-bg.png),url(../images/say-box-stxt.png);
 	background-position: top 10px center,bottom 5px center;
 	background-size: 100px, 80%;
